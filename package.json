@@ -1,0 +1,22 @@
+{
+  "name": "herald",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "description": "Signed, typed announcements from platforms to AI agents",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc -p .",
+    "demo": "bun examples/demo.ts",
+    "demo:mcp": "bun examples/mcp-demo.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.4",
+    "typescript": "^7.0.2"
+  }
+}
